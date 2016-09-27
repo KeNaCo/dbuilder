@@ -37,5 +37,5 @@ LABEL org.label-schema.schema-version="rc1" \
       org.label-schema.usage="https://github.com/seznam/dbuilder" \
       org.label-schema.url="https://github.com/seznam/dbuilder" \
       org.label-schema.docker.cmd="docker run --rm -v `pwd`:/dbuilder/sources" \
-      org.label-schema.docker.cmd.devel="docker run -v `pwd`:/dbuilder/sources" \
+      org.label-schema.docker.cmd.devel="docker run -v `pwd`:/dbuilder/sources"
 {% endblock -%}
