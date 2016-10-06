@@ -27,7 +27,7 @@ ENTRYPOINT /dbuilder/bin/{{name}}
 ARG build_date=""
 ARG vcs_ref=""
 
-LABEL org.label-schema.schema-version="rc1" \
+LABEL org.label-schema.schema-version="1.0.0-rc.1" \
       org.label-schema.vendor="Seznam s.r.o" \
       org.label-schema.build-date="$build_date" \
       org.label-schema.vcs-url="https://github.com/seznam/dbuilder" \
